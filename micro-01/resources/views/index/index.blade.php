@@ -13,7 +13,7 @@
                     <h4 class="mb-3">Listagem e CRUD de produtos e categorias</h4>
                     <a class="btn btn-primary" href="{{ url('tags') }}" role="button">Tags</a>
                     <a class="btn btn-primary" href="{{ url('produtos') }}" role="button">Produtos</a>
-                    <a class="btn btn-primary" href="{{ url('relatorio') }}" role="button">Relatório</a>
+                    <a class="btn btn-primary" href="{{ url('relatorio') }}" target="_blank" role="button">Relatório</a>
                 </div>
                 <!-- Jumbotron -->
             </div>

@@ -18,7 +18,7 @@
 
         <div class="row">
             <div class="col-md-8">
-                <h2>Nova Tag</h2>
+                <h2>Editar Tag</h2>
             </div>
             <div class="col-md-4">
                 <a href="{{ url('tags') }}" class="btn btn-secondary btn-block">Voltar</a>
@@ -27,12 +27,13 @@
 
         <div class="row">
             <div class="col-md-12">
-                <form action="{{url('tags/store')}}" method="POST">
+                <form action="{{url('tags/' . $tag->id . '/update')}}" method="POST">
+                    <input type="hidden" name="_method" value="PUT">
                     {{ csrf_field() }}
                     <div class="row">
                         <div class="col-md-12">
                             <label>Nome*</label>
-                            <input type="text" name="name" class="form-control" required>
+                            <input type="text" name="name" value="{{ $tag->name }}" class="form-control" required>
                         </div>
                     </div>
 
