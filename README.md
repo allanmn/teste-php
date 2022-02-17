@@ -20,6 +20,6 @@ docker-compose up -d
 docker-compose exec micro_01 bash
 composer install
 
-agora o projeto vai estar rodando tranquilo :)
+agora o projeto vai estar rodando tranquilo, só acessar localhost:8000 :)
 
 (lembrando que deixei a APP_KEY pronta pra economizar tempo, mas qualquer coisa é só apagar e rodar o php artisan key:generate dentro do cash do container)
