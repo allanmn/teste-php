@@ -18,8 +18,11 @@ Para executar o projeto entre no diretorio e rode os seguintes comandos (ou aç�
 cd micro-01
 
 cp .env.example .env
+
 docker-compose up -d
+
 docker-compose exec micro_01 bash
+
 composer install
 
 agora o projeto vai estar rodando tranquilo, só acessar localhost:8000 :)
