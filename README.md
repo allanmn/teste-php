@@ -14,7 +14,9 @@ order by tags.id
 ---------------------------------------------------------------------------
 
 Para executar o projeto entre no diretorio e rode os seguintes comandos (ou ações equivalentes)
+
 cd micro-01
+
 cp .env.example .env
 docker-compose up -d
 docker-compose exec micro_01 bash
