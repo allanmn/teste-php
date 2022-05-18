@@ -1,5 +1,5 @@
 # teste-php
-Desafio de php proposto pela Promobit com Docker
+Desafio de php
 
 --------------------------------------------------------------------------
 
@@ -22,4 +22,4 @@ composer install
 
 agora o projeto vai estar rodando tranquilo, só acessar localhost:8000 :)
 
-(lembrando que deixei a APP_KEY pronta pra economizar tempo, mas qualquer coisa é só apagar e rodar o php artisan key:generate dentro do cash do container)
+(lembrando que deixei a APP_KEY pronta pra economizar tempo, mas qualquer coisa é só apagar e rodar o php artisan key:generate dentro do bash do container)
